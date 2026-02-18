@@ -1,6 +1,7 @@
 [build]
+  base    = "credly/frontend"   
+  publish = "build"             
   command = "npm run build"
-  publish = "frontend/build"
 
 [functions]
-  directory = "frontend/netlify/functions"
+  directory = "credly/frontend/netlify/functions"
