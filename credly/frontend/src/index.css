@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@keyframes ticker {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+
+    /* Halfway through, it loops perfectly */
+}
+
+.animate-ticker {
+    animation: ticker 90s linear infinite;
+}
