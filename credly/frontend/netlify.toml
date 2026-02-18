@@ -1,5 +1,5 @@
 [build]
   base = "credly/frontend"
   command = "npm run build"
-  publish = "build"
+  publish = "dist"
   functions = "netlify/functions"
